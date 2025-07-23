@@ -20,6 +20,7 @@ SCOPES = [
     'https://www.googleapis.com/auth/gmail.addons.current.message.action',
     'https://www.googleapis.com/auth/gmail.addons.current.message.metadata',
     'https://www.googleapis.com/auth/gmail.addons.current.message.readonly',
+    'https://mail.google.com/',  # Full Gmail access (includes delete)
 ]
 
 TOKEN_PATH = Path.home() / '.gmail-mcp' / 'token.json'
