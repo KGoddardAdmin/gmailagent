@@ -58,3 +58,6 @@ config
 google-credentials.json
 oauth-credentials.json
 service-account-*.json
+# Test files
+extracted_tasks.md
+send_agent_email.py
